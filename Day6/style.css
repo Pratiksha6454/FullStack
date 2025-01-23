@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Quicksand:wght@300..700&family=Sofadi+One&display=swap');
+
+h1{
+    font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 1000;
+}
+p{
+   
+    
+    font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  border: 2px solid red;
+  width: 145px;
+  word-break: break-all;
+
+}
+::selection{
+  background-color: black;
+  color: aqua;
+}

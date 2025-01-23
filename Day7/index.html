@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+       
+        div{
+            width: 40vw;
+            height: 50vh;
+            margin: 50px;
+            border: 2px solid black;
+            background-color: aqua;
+            padding: 40px;
+            /* display: inline-block; */
+        }
+        #one{
+            display:none;
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <div id="one">Hi I am div.</div>
+    <div id="two">Hi i am expected to be display below.</div>
+    <button id="ok" onclick="func()">Display</button>
+    <script>
+       
+        function func(){
+            let div1=document.getElementById("one");
+            div1.style.display='block';
+        }
+    </script>
+</body>
+</html>

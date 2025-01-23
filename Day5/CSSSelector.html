@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* Element elector */
+        div{
+            background-color: yellow;
+            color: white;
+        }
+       
+       
+        /* class Selector */
+        .green{
+            background-color: green;
+            color: white;
+            height: 60px;
+        }
+        .pink{
+            background-color: pink;
+            color: white;
+            height: 40px;
+        }
+       /* Id Selector */
+
+        #ix{
+            background-color: red;
+        }
+
+      /* article > p{
+        background-color: yellow;
+      } */
+      /* pseudo Selector */
+
+      /* a:visited{
+        color: green;
+      } */
+      a:link{
+        color: red;
+      }
+      a:active{
+        background-color: red;
+      }
+      a:hover{
+        background-color: aqua;
+      }
+      div:hover{
+        background-color: aqua;
+      }
+      /* p:first-child{
+        background-color: brown;
+      } */
+       p:nth-child(2){
+        background-color: brown;
+       }
+
+    </style>
+</head>
+<body>
+    <div>This is a div element</div>
+     <div class="green pink">This is another div</div> <!-- bg-green   color:wjhite    -->
+    <div class="pink">This is another div</div>
+    <div class="pink">jsdjfjd</div>
+    <div>This is another div</div>
+    <div id="ix" class="green">THis is talking about id</div>
+
+    <article>
+        <p>I am second.</p>
+        <span>
+        <p>I am inside article tag.</p>
+        <p>this is insiode spavl</p>
+        
+        </span>
+    </article>
+    <p>This is open .</p>
+    <a href="https://chatgpt.com/c/678cf6fc-1918-8003-ab7e-611e6ca7908a">Go there</a>
+    <a href="bhjsdjbjsfbsf">Hogi</a>
+</body>
+</html>

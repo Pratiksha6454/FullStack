@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            border: 2px solid black;
+            margin: 30px;
+            /* position: relative; */
+        }
+        .box{
+            width: 80vw;
+            height: 40vh;
+            border: 2px solid black;
+            margin: 30px;
+        }
+        .box1{
+            background-color: aqua;
+            position: sticky;
+            z-index: 1;
+            top: 0px;
+            width: 80vw;
+            height: 5vh;
+
+        }
+        .box2{
+            background-color:pink;
+            /* position: fixed; */
+            position: relative;
+            /* top: 0px; */
+            /* z-index: 1; */
+           
+        }
+        .box3{
+            background-color: green;
+            /* position: fixed; */
+            bottom: 0px;
+            left: 40vw;
+
+        }
+        .box4{
+            background-color: blue;
+        }
+        .box5{
+        background-color: yellow;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="box box1">
+        <ul>
+            <li>About</li>
+            <li>Home</li>
+            <li>Help</li>
+        </ul>
+    </div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+</div>
+</body>
+</html>
